@@ -41,48 +41,48 @@ cd SmartBot-GPT
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-###Install Dependencies
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-###Add Google Generative AI API Key
+### Add Google Generative AI API Key
 Set your API key in .env or directly in your Django settings.py:
 ```
 GOOGLE_API_KEY = "your-key-here"
 
 ```
-###Apply Migrations
+### Apply Migrations
 ```bash
 python manage.py migrate
 ```
-###Run the Server
+### Run the Server
 ```bash
 python manage.py runserver
 ```
-Open in Browser
+### Open in Browser
 ```
 url
 http://127.0.0.1:8000/
 ```
 ---
-###🎮 How to Use
--Launch the application via your browser after running the server.
+### 🎮 How to Use
+- Launch the application via your browser after running the server.
 
--Type or speak your question in the chatbot window.
+- Type or speak your question in the chatbot window.
 
--Receive intelligent, contextual responses powered by Google Generative AI.
+- Receive intelligent, contextual responses powered by Google Generative AI.
 
--Enjoy a smooth, intuitive interaction flow with the virtual assistant.
+- Enjoy a smooth, intuitive interaction flow with the virtual assistant.
 
-###📌 Future Improvements
--Add voice synthesis for spoken replies
--Enable multi-language support
--Integrate with external services like weather, calendar, or databases
--Implement chatbot memory and user session tracking
+### 📌 Future Improvements
+- Add voice synthesis for spoken replies
+- Enable multi-language support
+- Integrate with external services like weather, calendar, or databases
+- Implement chatbot memory and user session tracking
 
 ###🛡️ License
--This project is licensed under the MIT License.
--Feel free to use and modify it for your own projects.
+- This project is licensed under the MIT License.
+- Feel free to use and modify it for your own projects.
 
-Made with ❤️ using Django and Google Generative AI
+# Made with ❤️ using Django and Google Generative AI
