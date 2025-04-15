@@ -33,72 +33,56 @@ This project aims to create an AI-powered chatbot that facilitates contextual an
 ```bash
 git clone https://github.com/yourusername/SmartBot-GPT.git
 cd SmartBot-GPT
+```
 
 
 ### Create a Virtual Environment
-
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Create a Virtual Environment
+```
+###Install Dependencies
 ```bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
-Add Google Generative AI API Key
+```
+
+###Add Google Generative AI API Key
 Set your API key in .env or directly in your Django settings.py:
-
-python
-Copy
-Edit
+```
 GOOGLE_API_KEY = "your-key-here"
-Apply Migrations
-bash
-Copy
-Edit
+
+```
+###Apply Migrations
+```bash
 python manage.py migrate
-Run the Server
-bash
-Copy
-Edit
+```
+###Run the Server
+```bash
 python manage.py runserver
+```
 Open in Browser
+```
 url
-Copy
-Edit
 http://127.0.0.1:8000/
-🎮 How to Use
-Launch the application via your browser after running the server.
+```
+---
+###🎮 How to Use
+-Launch the application via your browser after running the server.
 
-Type or speak your question in the chatbot window.
+-Type or speak your question in the chatbot window.
 
-Receive intelligent, contextual responses powered by Google Generative AI.
+-Receive intelligent, contextual responses powered by Google Generative AI.
 
-Enjoy a smooth, intuitive interaction flow with the virtual assistant.
+-Enjoy a smooth, intuitive interaction flow with the virtual assistant.
 
-📌 Future Improvements
-Add voice synthesis for spoken replies
+###📌 Future Improvements
+-Add voice synthesis for spoken replies
+-Enable multi-language support
+-Integrate with external services like weather, calendar, or databases
+-Implement chatbot memory and user session tracking
 
-Enable multi-language support
-
-Integrate with external services like weather, calendar, or databases
-
-Implement chatbot memory and user session tracking
-
-🛡️ License
-This project is licensed under the MIT License.
-Feel free to use and modify it for your own projects.
+###🛡️ License
+-This project is licensed under the MIT License.
+-Feel free to use and modify it for your own projects.
 
 Made with ❤️ using Django and Google Generative AI
-
-vbnet
-Copy
-Edit
-
-Let me know if you’d like this saved as a file or want to include badges, screenshots, or deployment instruct
